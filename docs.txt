@@ -1,0 +1,23 @@
+graphql
+relates with restapi
+
+caching 
+
+user makes an allusers routes
+==> db call findall() stores in cache and serves back to the client
+
+if there is no  any write operation on the database ho vane
+you can serve the same cached data to the frontend 
+
+finall()
+
+trying to create a new uder()
+db ma sava vayo cache lai invalidate () empty the cache
+
+finall() db call
+
+db in memory database
+
+//cursor pagination
+
+subgraph signifcant part of the graph
